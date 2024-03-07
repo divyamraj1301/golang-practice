@@ -59,7 +59,6 @@ func main() {
 
 // controller file
 
-// serveHome route
 func serveHome(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("<h1>Welcome to API</h1>"))
 }
